@@ -1,5 +1,10 @@
 #include <stdio.h>
-/* Print a line about programming */
+
+/**
+ * main- Print a line about programming
+ * Return: is 0
+ */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");

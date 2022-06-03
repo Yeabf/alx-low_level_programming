@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - output lowercase and uppercase 
+ *main - output lowercase and uppercase
  *Return: is 0
  */
 

@@ -2,7 +2,7 @@
 
 /**
  *main - print 0-9 separated with commas
- *Return: is 0 
+ *Return: is 0
  */
 
 int main(void)

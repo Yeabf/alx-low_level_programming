@@ -6,7 +6,7 @@
  */
 void print_numbers(void)
 {
-	char n=0;
+	char n = 0;
 
 	while (n <= 9)
 	{
@@ -16,5 +16,5 @@ void print_numbers(void)
 
 	}
 	_putchar('\n');
-}	
+}
 

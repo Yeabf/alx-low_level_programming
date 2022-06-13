@@ -1,4 +1,4 @@
-#inculde "main.h"
+#include "main.h"
 /**
  *swap_int- swaps values
  *@a: integer 1

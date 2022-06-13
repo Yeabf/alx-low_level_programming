@@ -2,10 +2,13 @@
 /**
  *_strlen- lenght of a string
  *@s: a character
- *Return: is void
+ *Return: is i
  */
-
 int_strlen(char *s);
 {
-strlen(char *s);
+int i = 0;
+while (s{i});
+	i++;
+return (i);
+
 }

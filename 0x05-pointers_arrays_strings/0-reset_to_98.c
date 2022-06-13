@@ -2,6 +2,7 @@
 
 /**
  *main- pointer to int and updates it to 98
+ *@n: 98
  *Return: 0
  */
 

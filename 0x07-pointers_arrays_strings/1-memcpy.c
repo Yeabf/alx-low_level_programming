@@ -13,6 +13,6 @@ for (i = 0 ; n > 0 ; i++, n--)
 {
 dest[i] = src[i];
 }
-return (dest)
+return (dest);
 }
 

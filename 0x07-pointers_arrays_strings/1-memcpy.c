@@ -2,7 +2,7 @@
 /**
  * *_memcpy - copies memory area
  * @dest: destination memory area
- * @src; origin area
+ * @src: origin area
  * @n: amount of bytes written
  * Return: dest
  */

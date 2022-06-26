@@ -2,31 +2,26 @@
 #include <stdio.h>
 
 /**
- * *_strbrk - search strings for any set of bytes
- * @s: strings to be matched
- * @accept: bytes containing the matched
- * Return: pointer p is not null
+ *  * _strpbrk - bytes
+ *   * @s: pointer to char
+ *    * @accept: pointer to char
+ *     * Return: NULL
  */
 
-char *_strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-	int i, j;
-	char *p;
+	int i;
 
-	i = 0;
-	while (s[i] != '\0')
+	while (*s)
 	{
-		j = 0;
-		while (accept[j] != '\0')
+		for (i = 0; accept[i]; i++)
 		{
-			if (accept[j] == s[i])
+			if (*s == accept[i])
 			{
-				p = &s[i];
-				return (p);
+				return (s);
 			}
-			j++;
 		}
-		i++;
+		s++;
 	}
-	return (0);
+	return (NULL);
 }

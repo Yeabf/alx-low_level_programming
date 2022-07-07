@@ -1,4 +1,4 @@
-nclude "variadic_functions.h"
+#include "variadic_functions.h"
 #include <stdarg.h>
 
 /**
@@ -7,7 +7,7 @@ nclude "variadic_functions.h"
  *    *
  *     * Return: sum of args
  *      * On error, 0 is returned
- *       */
+ */
 
 int sum_them_all(const unsigned int n, ...)
 {
